@@ -1,0 +1,143 @@
+body{
+    color: #40514E;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+}
+h1{
+    font-size: 5.625rem;
+    margin: 2.6rem auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.sub-title{
+    margin: 0px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a{
+    color: #11999E;
+}
+.books{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.tv{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.my-photo{
+    height: 150px;
+    width: 150px;
+}
+.top-container{
+    background-color: #edffec;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container{
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+.bottom-container{
+    background-color:  #66BFBF;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+.middle{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+.bottom{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+.bottom-cloud{
+    position:absolute;
+    bottom: 300px;
+    left: 300px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px
+}
+.skills{
+    width: 50%;
+    margin: auto;
+}
+.skill-row{
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+hr{
+    border-style: dotted none none ;
+    border-color: #EAF6F6;
+    border-width: 10px;
+    height: 0px;
+    width: 10%;
+    margin: 100px auto;
+}
+.end{
+    color:  #EAF6F6;
+    margin-top: 40px;
+    font-size: 0.76rem;
+}
+.footer-link{
+    padding: 20px;
+    text-decoration: none;
+}
+.btn{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    background-color: #3DC8E6;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+ 
+.btn:hover{
+    background: #2D12DA;
+    border: solid #337FED 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.intro{
+    width:30%;
+    margin: auto;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+a:hover{
+    color:#EAF6F6;
+}
